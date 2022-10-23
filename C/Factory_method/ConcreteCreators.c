@@ -53,5 +53,5 @@ void creatorB_info (ConcreteCreatorB* __this) {
 }
 
 Product* factoryB (ConcreteCreatorB* __this) {
-    return (Product*)new_productB();
+    return (Product*) new_productB();
 }
