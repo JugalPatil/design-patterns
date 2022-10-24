@@ -18,7 +18,7 @@ class Publisher {
     virtual std::string product_info()                             = 0;
     virtual void product_subscriber_add(Subscriber* subscriber)    = 0;
     virtual void product_subscriber_remove(Subscriber* subscriber) = 0;
-    virtual void notify_subscriber(std::string message)                               = 0;
+    virtual void notify_subscriber(std::string message)            = 0;
 };
 
 class Subscriber {
